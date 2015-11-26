@@ -26,6 +26,10 @@
             android:name=".Second_actyvity"
             android:label="@string/title_activity_second_actyvity" >
         </activity>
+        <activity
+            android:name=".Therd"
+            android:label="@string/title_activity_therd" >
+        </activity>
     </application>
 
 </manifest>
