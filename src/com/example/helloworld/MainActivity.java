@@ -14,9 +14,10 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		TextView t=(TextView) findViewById(R.id.text);
-		t.setText("hallo");
+		t.setText("hallo abel");
 		Intent in =new Intent(this,Second_actyvity.class);
 		startActivity(in);
+		
 	}
 
 	@Override
