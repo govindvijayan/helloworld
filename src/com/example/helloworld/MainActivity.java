@@ -1,6 +1,7 @@
 package com.example.helloworld;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,6 +15,8 @@ public class MainActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_main);
 		TextView t=(TextView) findViewById(R.id.text);
 		t.setText("hallo");
+		Intent in =new Intent(this,Second_actyvity.class);
+		startActivity(in);
 	}
 
 	@Override
