@@ -11,6 +11,7 @@ public class Second_actyvity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_second_actyvity);
+		finish();
 	}
 
 	@Override
